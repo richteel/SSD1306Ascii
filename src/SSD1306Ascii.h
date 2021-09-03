@@ -429,7 +429,7 @@ class SSD1306Ascii : public Print {
    * @return false if queue is full else true.
    */
   bool tickerText(TickerState* state, const String &str) {
-    return tickerText(state, str ? str.c_str() : nullptr);
+    return tickerText(state, str.c_str());
   }
   /**
    *  @brief Add text pointer to display queue.
