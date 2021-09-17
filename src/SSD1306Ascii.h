@@ -28,7 +28,7 @@
 #include "fonts/allFonts.h"
 //------------------------------------------------------------------------------
 /** SSD1306Ascii version */
-#define SDD1306_ASCII_VERSION 1.3.0
+#define SDD1306_ASCII_VERSION 10302
 //------------------------------------------------------------------------------
 // Configuration options.
 /** Set Scrolling mode for newline.
